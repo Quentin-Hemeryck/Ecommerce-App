@@ -45,7 +45,7 @@ function ProductDetails() {
           />
         ))}
       </div>
-      <p>Prix : {product.price / 100}€</p>
+      <p>Prix : {product.price}€</p>
       <p>Description : {product.description}</p>
       <p>Quantité disponible : {product.quantity - product.sold}</p>
       <p>

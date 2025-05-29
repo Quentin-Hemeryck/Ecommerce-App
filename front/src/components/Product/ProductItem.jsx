@@ -19,7 +19,7 @@ function ProductItem(props) {
         <Card.Img variant="top" src={props.image} alt={props.name} style={{width: '100%', height:'200px'}} />
         <Card.Body >
           <Card.Title>{props.name}</Card.Title>
-          <Card.Text>{props.price/100} €</Card.Text> {/*J'aurais pu utiliser toFixed pour déterminer le nbr de chiffres après la virgule */}
+          <Card.Text>{props.price} €</Card.Text> {/*J'aurais pu utiliser toFixed pour déterminer le nbr de chiffres après la virgule */}
         </Card.Body>
       </Link>
       <div className="mt-auto">

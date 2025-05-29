@@ -32,7 +32,7 @@ function CartModal({ open, onClose }) {
                 {items.map((item) => (
                   <tr key={item._id}>
                     <td>{item.name}</td>
-                    <td>{item.price/100}</td>
+                    <td>{item.price}</td>
                     <td>{item.quantity}</td>
                     <td>
                       <button
@@ -51,7 +51,7 @@ function CartModal({ open, onClose }) {
               </tbody>
             </table>
             {/* Utilisation de Math.round pour arrondir le total à deux décimales car sinon erreur JS*/}
-            <h4 className="text-end fw-bold">Total Amount : {Math.round(items.reduce((sum, item) => sum + item.price/100 * item.quantity, 0)* 100)/100}€</h4>
+            <h4 className="text-end fw-bold">Total Amount : {Math.round(items.reduce((sum, item) => sum + item.price * item.quantity, 0)* 100)/100}€</h4>
           </>
         )}
       </Modal.Body>
