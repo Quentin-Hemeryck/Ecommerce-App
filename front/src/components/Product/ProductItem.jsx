@@ -16,7 +16,7 @@ function ProductItem(props) {
   return (
     <Card className="h-100">
       <Link to={`/product/${product._id}`} style={{ textDecoration: "none", color: "inherit" }}>
-        <Card.Img variant="top" src={props.image} alt={props.name} style={{width: '100%', height:'200px'}} />
+        <Card.Img variant="top" src={props.image} alt={props.name} style={{objectFit: "contain", width: "100%", height: "200px", padding: "1rem"}} />
         <Card.Body >
           <Card.Title>{props.name}</Card.Title>
           <Card.Text>{props.price} €</Card.Text> {/*J'aurais pu utiliser toFixed pour déterminer le nbr de chiffres après la virgule */}
