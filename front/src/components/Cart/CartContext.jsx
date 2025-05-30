@@ -115,9 +115,14 @@ export function useCart() {
   return context;
 }
 
+export default CartContext;
+
+
 /**
  * Correction du bug dans REMOVE_FROM_CART
  * Optimisation avec useMemo pour éviter les re-rendus inutiles
  * Ajout de la gestion d'erreur dans useCart si utilisé hors contexte
  * Lisibilité améliorée et meilleures pratiques avec ACTIONS et initialState
  */
+
+

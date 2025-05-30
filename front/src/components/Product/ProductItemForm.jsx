@@ -43,7 +43,7 @@ function ProductItemForm({ product }) {
         onBlur={handleBlur}
         style={{ maxWidth: "100px", margin: "0 5px" }}
       />
-      <Button variant="primary" type="submit">Add</Button>
+      <Button variant="primary" type="submit" disabled={product.isOutOfStock}>Add</Button>
     </form>
   );
 }
