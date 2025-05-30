@@ -14,7 +14,7 @@ function Header() {
                     onClick={() => navigate(-1)} // Revient à la page précédente
                     style={{ cursor: 'pointer' }} // Ajoute un curseur pour indiquer que c'est cliquable
                 >
-                    E-commerce
+                    TakeYourShirt
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
