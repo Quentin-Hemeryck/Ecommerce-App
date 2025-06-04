@@ -1,3 +1,11 @@
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
 .product-form {
   display: flex;
   align-items: center;
