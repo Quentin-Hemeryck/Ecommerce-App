@@ -4,3 +4,6 @@ package-lock.json
 config.env
 build
 build-docs
+
+# Ignore environment files
+back/.env
