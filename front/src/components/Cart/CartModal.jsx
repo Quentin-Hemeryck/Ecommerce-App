@@ -10,7 +10,7 @@ function CartModal({ open, onClose }) {
   };
 
   return (
-    <Modal show={open} onHide={onClose} centered>
+    <Modal show={open} onHide={onClose} backdrop="static" centered>
       <Modal.Header closeButton>
         <Modal.Title>Cart</Modal.Title>
       </Modal.Header>
