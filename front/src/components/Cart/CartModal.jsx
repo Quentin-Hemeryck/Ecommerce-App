@@ -66,8 +66,8 @@ function CartModal({ open, onClose }) {
           variant="success" 
           onClick={() => {
             alert('Your order has been successfully placed!');
-            clearCart(); // Vide le panier après la commande
-            onClose(); // Ferme la modale
+            clearCart();
+            onClose(); 
           }} 
           disabled={items.length === 0}
         >

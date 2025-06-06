@@ -44,7 +44,6 @@ function ProductDetails() {
 
       <h1 style={{ fontSize: "2rem", marginBottom: "20px" }}>{product.name}</h1>
 
-      {/* Images en une seule ligne et même taille */}
       <div
         style={{
           display: "flex",
